@@ -1,0 +1,56 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage[a4paper,left=1.5cm,right=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{caption}
+%Define Own Colours
+\usepackage{xcolor}
+\definecolor{Gray}{HTML}{666666}
+\definecolor{White}{HTML}{FFFFFF}
+
+%Document Widths
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.35cm}
+\linespread{1.5}
+\fboxrule=1pt
+\fboxsep=0pt
+
+%Header and Footer Styles
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{LUG@UoA Shirt Vote}}
+\fancyhead[R]{University of Auckland Linux User Group}
+\fancyfoot[L]{2024-07-26}
+\fancyfoot[R]{\thepage}
+
+%Document Body
+\begin{document}
+
+\newpage
+
+% \section*{Vote for your Favourite Logo!}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/A_Linux.png}
+  \caption*{\Large{\textbf{Option \#1}}}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/image.png}
+  \caption*{\Large{\textbf{Option \#2}}}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/mmexport1721729551948.png}
+  \caption*{\Large{\textbf{Option \#3}}}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.56\linewidth]{res/mmexport1721729557489.png}
+  \caption*{\Large{\textbf{Option \#4}}}
+\end{figure}
+\end{document}
